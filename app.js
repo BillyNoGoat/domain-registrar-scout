@@ -31,6 +31,8 @@ const domainRegistrar = {
         registrar: e.querySelectorAll("td")[2].innerHTML
       };
     });
+    // The first element needs to be removed as it's the header of the table
+    scrapedData.shift();
     return scrapedData;
   }
 };
