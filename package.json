@@ -1,0 +1,23 @@
+{
+  "name": "domain-scout",
+  "version": "1.0.0",
+  "description": "A very small module to allow scraping registrant domains from viewdns.info",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Snitt/viewdns-info-registrant-scraper.git"
+  },
+  "author": "Billy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Snitt/viewdns-info-registrant-scraper/issues"
+  },
+  "homepage": "https://github.com/Snitt/viewdns-info-registrant-scraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "jsdom": "^14.0.0"
+  }
+}
