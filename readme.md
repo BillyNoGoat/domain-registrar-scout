@@ -1,6 +1,13 @@
 #### A simple node module which scrapes viewdns.info/reversewhois for registrant domain info
 
-# getDomainsByRegistrar()
+### Install
+
+`git clone https://github.com/BillyNoGoat/domain-registrar-scout`
+`npm i`
+
+# API Usage
+
+## getDomainsByRegistrar()
 
 Take a registrant and return all domains under
 this registrant. Example output:
@@ -15,12 +22,12 @@ this registrant. Example output:
 
 This function will call the below functions
 
-# getHTML()
+## getHTML()
 
 Take a registrant and return the HTML page for that registrant
 from viewdns.info.
 
-# scrapeHTML()
+## scrapeHTML()
 
 Takes the HTML and scrapes it for registrant info and parses it
 into JSON for output.
