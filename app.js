@@ -3,7 +3,7 @@ const jsdom = require("jsdom");
 const { JSDOM } = jsdom;
 
 const domainRegistrant = {
-  getDomainsByRegistrar: async function(registrant) {
+  getDomainsByRegistrant: async function(registrant) {
     // Pull HTML for registrant
     const HTML = await domainRegistrant.getHTML(registrant);
     // Pass to scraper to return object of data
@@ -40,4 +40,4 @@ const domainRegistrant = {
   }
 };
 
-module.exports = domainRegistrar;
+module.exports = domainRegistrant;
