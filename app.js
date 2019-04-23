@@ -40,4 +40,9 @@ const domainRegistrant = {
   }
 };
 
+(async function() {
+  const res = await domainRegistrant.getDomainsByRegistrant("MuleSoft Inc.");
+  console.log(res);
+})();
+
 module.exports = domainRegistrant;
