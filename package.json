@@ -18,6 +18,7 @@
   "homepage": "https://github.com/Snitt/viewdns-info-registrant-scraper#readme",
   "dependencies": {
     "axios": "^0.18.0",
-    "jsdom": "^14.0.0"
+    "jsdom": "^14.0.0",
+    "whois-json": "^2.0.4"
   }
 }
