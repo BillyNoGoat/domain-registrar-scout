@@ -21,7 +21,7 @@ const domainRegistrant = {
       "registrantPostalCode",
       "registrantEmail"
     ]);
-    return Promise.resolve(JSON.stringify(registrant, null, 2));
+    return Promise.resolve(registrant);
   },
   // Pull HTML based on registrant
   getHTML: async function(registrant) {
